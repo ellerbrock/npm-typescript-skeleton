@@ -24,27 +24,29 @@ Getting Started to write NPM Modules in TypeScript.
 
 ```
 {
-    "compileOnSave": true,
-    "compilerOptions": {
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "target": "es5",
-        "sourceMap": true,
-        "removeComments": true,
-        "declaration": true,
-        "outDir": "./js",
-        "noImplicitAny": false,
-        "noLib": false,
-        "pretty": true,
-        "suppressImplicitAnyIndexErrors": true,
-        "preserveConstEnums": true
-    },
-    "exclude": [
-        "node_modules"
-    ],
-    "atom": {
-        "rewriteTsconfig": true
-    }
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "sourceMap": true,
+    "declaration": true,
+    "outDir": "./js",
+    "noLib": false,
+    "pretty": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "preserveConstEnums": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
 }
 ```
 
@@ -59,6 +61,13 @@ typings install env~atom --global --save
 typings install dt~node --global --save
 typings install dt~core-js --global --save
 ```
+
+# TSLint
+
+- [TSLint](https://www.npmjs.com/package/tslint) - An extensible static analysis linter for the TypeScript language.
+- [TSLint Documentation](https://palantir.github.io/tslint/) - TSLint checks your TypeScript code for readability, maintainability, and functionality errors.
+
+`tslint --init` - Generates a tslint.json config file in the current working directory.
 
 ### Contact / Social Media
 
