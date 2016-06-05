@@ -1,23 +1,25 @@
 {
-    "compileOnSave": true,
-    "compilerOptions": {
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "target": "es5",
-        "sourceMap": true,
-        "removeComments": true,
-        "declaration": true,
-        "outDir": "./js",
-        "noImplicitAny": false,
-        "noLib": false,
-        "pretty": true,
-        "suppressImplicitAnyIndexErrors": true,
-        "preserveConstEnums": true
-    },
-    "exclude": [
-        "node_modules"
-    ],
-    "atom": {
-        "rewriteTsconfig": true
-    }
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "sourceMap": true,
+    "declaration": true,
+    "outDir": "./js",
+    "noLib": false,
+    "pretty": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "preserveConstEnums": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
 }

@@ -48,6 +48,18 @@ Getting Started to write NPM Modules in TypeScript.
 }
 ```
 
+# Typings
+
+- [Typings](https://www.npmjs.com/package/typings) - The TypeScript Definition Manager
+- [TypeScript Configuration](https://angular.io/docs/ts/latest/guide/typescript-configuration.html) - TypeScript configuration for Angular 2 developers.
+
+```
+typings install debug --save
+typings install env~atom --global --save
+typings install dt~node --global --save
+typings install dt~core-js --global --save
+```
+
 ### Contact / Social Media
 
 *Get the latest News about Web Development, Open Source, Tooling, Server & Security*

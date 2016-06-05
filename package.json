@@ -1,0 +1,29 @@
+{
+  "name": "npm-typescript-skeleton",
+  "version": "1.0.0",
+  "description": "TypeScript NPM Development Starter",
+  "main": "./js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellerbrock/npm-typescript-skeleton.git"
+  },
+  "keywords": [
+    "typescript",
+    "npm",
+    "skeleton",
+    "typings",
+    "starter",
+    "node",
+    "node.js"
+  ],
+  "author": "Maik Ellerbrock <opensource@frapsoft.com> (https://github.com/ellerbrock)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ellerbrock/npm-typescript-skeleton/issues"
+  },
+  "homepage": "https://github.com/ellerbrock/npm-typescript-skeleton#readme"
+}
