@@ -1,0 +1,23 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "sourceMap": true,
+        "removeComments": true,
+        "declaration": true,
+        "outDir": "./js",
+        "noImplicitAny": false,
+        "noLib": false,
+        "pretty": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "preserveConstEnums": true
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
